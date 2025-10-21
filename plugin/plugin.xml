@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.example.outsystems.livenessface" version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>LivenessFace</name>
+    <description>OutSystems 11 scaffold for a liveness face detection Cordova plugin.</description>
+    <license>UNLICENSED</license>
+
+    <js-module name="LivenessFace" src="www/liveness-face.js">
+        <clobbers target="window.LivenessFace" />
+    </js-module>
+
+    <platform name="android">
+        <source-file src="src/android/LivenessFacePlugin.java" target-dir="src/com/example/outsystems/livenessface" />
+
+        <!-- Example Gradle dependency (replace with your SDK) -->
+        <framework src="com.android.support:support-compat:+" />
+    </platform>
+
+    <platform name="ios">
+        <source-file src="src/ios/LivenessFacePlugin.swift" />
+
+        <!-- Example CocoaPods dependency (replace with your SDK) -->
+        <framework src="AVFoundation" />
+    </platform>
+</plugin>

@@ -1,0 +1,21 @@
+{
+  "platforms": {
+    "android": {
+      "gradleDependencies": [
+        {
+          "name": "com.android.support:support-compat",
+          "version": "+"
+        }
+      ],
+      "preferences": []
+    },
+    "ios": {
+      "cocoaPods": [
+        {
+          "name": "AVFoundation"
+        }
+      ],
+      "entitlements": []
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "outsystems-liveness-face-plugin",
+  "version": "0.0.1",
+  "description": "OutSystems 11 Cordova plugin scaffold for liveness face detection",
+  "keywords": [
+    "outsystems",
+    "cordova",
+    "plugin",
+    "liveness",
+    "face-detection"
+  ],
+  "cordova": {
+    "id": "com.example.outsystems.livenessface",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "author": "Your Company",
+  "license": "UNLICENSED"
+}
